@@ -12,6 +12,8 @@ Range of PAF:<br>
 [-1,+1]<br>
 Range of centerx and centery and length:<br>
 [0,1]<br>
+The groundtruth image:<br>
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/tree/master/result_images/groundtruth.png)
 ## Network
 This model use the openpose network and change the input channels.<br>
 The PAF is in branch 1.<br>
