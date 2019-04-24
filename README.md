@@ -12,8 +12,12 @@ Range of PAF:<br>
 [-1,+1]<br>
 Range of centerx and centery and length:<br>
 [0,1]<br>
+    <br>
 The groundtruth image:<br>
-![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/tree/master/result_images/groundtruth.png)
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/groundtruth.png)
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/groundtruth_0.png)
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/groundtruth_1.png)
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/groundtruth_2.png)
 ## Network
 This model use the openpose network and change the input channels.<br>
 The PAF is in branch 1.<br>
@@ -24,8 +28,15 @@ Total channel `57`.<br>
 Total time: `4`days for 1 day in GTX 1080Ti and 3 days in GTX 1080.<br>
 Epoch:`56`.<br>
 The details is in training/`training.csv`<br>
+    <br>
 Loss Graph:<br>
+![](https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/loss.png)<br>
+    <br>
 Results:<br>
+<img src="https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/centerx.png" width="300" height="300" alt="centerx"/>
+<img src="https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/centery.png" width="300" height="300" alt="centery"/><br>
+<img src="https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/length.png" width="300" height="300" alt="length"/>
+<img src="https://github.com/HaiyangLiu1997/Model_V1_BC_0409_2019/raw/master/result_images/paf.png" width="300" height="300" alt="PAF"/><br>
 ## Results analysis
 ### Why give up
 The centerx and centery need the network learns grobal information, consider remove it.<br>
