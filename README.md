@@ -1,6 +1,6 @@
 # 1904_research_OpenPose_modification_version1
-==== 2012 update ====
-This code commemorates my first official research topic. The code is not related to the work in my publication at all.  
+==== 2012 update ==== <br>
+This code commemorates my first official research topic. The code is not related to the work in my publication at all. <br>
 ## Encoding method
 ### Parameters
 This encoding method of this model have `5` parameters:<br>
