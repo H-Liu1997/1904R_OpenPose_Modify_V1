@@ -1,4 +1,6 @@
-# Keras_Model_Modify.2_OpenPose
+# 1904_research_OpenPose_modification_version1
+==== 2012 update ====
+This code commemorates my first official research topic. The code is not related to the work in my publication at all.  
 ## Encoding method
 ### Parameters
 This encoding method of this model have `5` parameters:<br>
